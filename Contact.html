@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <body bgcolor="#F1F0E1">
+        
+        <style>
+            body {font-family: "Times New Roman"}
+            .header {display: flex; align-items: center; justify-content: space-between; padding: 1%;}
+            .header img {width: 5%;}
+            .header span {flex-grow: 1; text-align: center; font-size: 90px; font-weight: bold; color:#43916E;}
+            h1 {text-align: center;}
+            h2 {text-align: center;}
+            .contact-box {width: 80%; max-width: 800px; margin: 30px auto; padding: 25px; background-color: #ffffff; border: 2px solid #43916E; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+            .contact-box h2 { color: #43916E; border-bottom: 1px solid #43916E; padding-bottom: 10px; margin-bottom: 20px;}
+            .contact-form label { display: block; margin: 15px 0 5px; font-weight: bold;}
+            .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;}
+            .contact-form textarea {height: 150px; resize: vertical;}
+            .contact-form button { background-color: #43916E; color: white; border: none; padding: 12px 25px; border-radius: 5px; font-size: 16px; font-weight: bold; display: block; margin: 0 auto; min-width: 150px;}
+            .contact-info { margin-top: 30px; display: flex; justify-content: space-between; flex-wrap: wrap;}
+            .contact-info div { flex-basis: 30%; margin-bottom: 15px;}
+            .contact-info h3 { color: #43916E; margin-bottom: 5px;}
+            footer {background-color:#43916E;color: white;text-align: center; padding: 15px; margin-top: 20px;}
+            footer a {color: #ffcc00; text-decoration: none; padding: 5px;}
+            footer p {font-size: 18px; font-weight: bold;}
+            footer a:hover {text-decoration: underline;}
+        </style>
+
+
+        </head>
+
+            <div class="header">
+                <img src="C:\Users\wajih\OneDrive\Documents\QCC\Spring 2025\ET710\Week 3\Project1_Wajiha_Ullah\Logos\Guyana Airways logo.png" alt="Guyana Airways Logo">
+                <span>Discover Guyana</span>
+                <img src="C:\Users\wajih\OneDrive\Documents\QCC\Spring 2025\ET710\Week 3\Project1_Wajiha_Ullah\Logos\Guyana Airways.png" alt="Guyana Airways">
+            </div>
+        </head>
+        
+        <hr>
+
+    
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+                
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            
+            <div class="contact-info">
+                <div>
+                    <h3>Phone</h3>
+                    <a href="tel:1800GUYTRIP">1(800)-GUY-TRIP</a>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <a href="mailto:info@guyanaairlines.com">info@guyanaairlines.com</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                <a href="index.html">Home</a> |
+                <a href="Kaieteur Falls.html">Explore Kaieteur Falls</a> |
+                <a href="Mount Roraima.html">Hike Mount Roraima</a> |
+                <a href="Contact.html">Contact Us</a>             
+            </p>
+            <p>Project 1 by Wajiha Ullah</p>
+        </footer>
+        
+    </body>    
+</html>
